@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const dbURI = process.env.MONGODB_URI || "mongodb+srv://davinarisandi:itenasjuara1_@davinarisandi.q5pzj.mongodb.net/tank?retryWrites=true&w=majority";
+const dbURI = process.env.MONGODB_URI || "mongodb+srv://agungMq135:agungmq135@cluster0.h9eyb.mongodb.net/sensor_data?retryWrites=true&w=majority&appName=Cluster0";
 let isConnected = false;
 
 /**
