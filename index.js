@@ -14,7 +14,7 @@ app.use(cors());
 // Jika ingin lebih spesifik:
 app.use(
     cors({
-        origin: 'https://rc-tank-f4.vercel.app', // Ganti dengan domain frontend Anda
+        origin: ['https://rc-tank-f4.vercel.app','http://localhost:5173'], // Ganti dengan domain frontend Anda
         methods: ['GET', 'POST'],
         credentials: true, // Jika perlu cookie atau header tertentu
     })
